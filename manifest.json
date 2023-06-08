@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Window",
+  "version": "1.0.1",
+  "description": "A small little widget app to see the weather",
+  "author": "Richard Dao and Kyle Bell",
+  "permissions": ["geolocation"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "extension.html"
+  }
+}
